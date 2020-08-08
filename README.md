@@ -3,6 +3,6 @@ This repository contains the official implementation of the "Topologically Optim
 
 ![Work in Progress](https://img.shields.io/badge/Work-In--Progress-purple.svg?longCache=true&style=popout-square)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/TopOpt_demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](TopOpt_demo.ipynb)
 
 
