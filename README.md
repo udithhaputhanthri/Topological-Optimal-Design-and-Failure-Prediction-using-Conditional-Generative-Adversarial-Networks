@@ -15,15 +15,15 @@ Topology optimization is the tool of choice in obtaining the initial design of s
 
 # Problem Definition
 
-![Problem Definition](results/problem_definition.jpg)
+![Problem Definition](results/problem_definition.png)
 
-![Dimentions of sample ](results/sample_problem.jpg)
+![Dimentions of sample ](results/sample_problem.png)
 
 To generate the optimal topology structure given the parameters of prescribed volume fraction and location of the applied load, we propose a Convolutional Neural Network + Conditional Generative Adversarial Network-based method.
 
 # Sample Results
 
-![Problem Definition](results/blackandwhite.jpg)
-![Dimentions of sample ](results/topopt.jpg)
-![Dimentions of sample ](results/maxstress.jpg)
+![Problem Definition](results/blackandwhite.png)
+![Dimentions of sample ](results/topopt.png)
+![Dimentions of sample ](results/maxstress.png)
 
