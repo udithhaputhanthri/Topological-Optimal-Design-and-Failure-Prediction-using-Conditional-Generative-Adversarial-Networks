@@ -30,3 +30,23 @@ To generate the optimal topology structure given the parameters of prescribed vo
 ![Dimentions of sample ](results/topopt.png)
 ![Dimentions of sample ](results/maxstress.png)
 
+
+
+# Citation
+
+Citation for the repository:
+
+```
+@software{udith_haputhanthri_2020_4020890,
+  author       = {Udith Haputhanthri},
+  title        = {{udithhaputhanthri/Topological-Optimal-Design-and- 
+                   Failure-Prediction-using-Conditional-Generative-
+                   Adversarial-Networks: First release}},
+  month        = sep,
+  year         = 2020,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.4020890},
+  url          = {https://doi.org/10.5281/zenodo.4020890}
+}
+```
