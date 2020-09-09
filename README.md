@@ -17,31 +17,27 @@ Topology optimization is the tool of choice in obtaining the initial design of s
 # Problem Definition
 
 ![Problem Definition](results/problem_definition.png)
-Material design domain and applied displacement and loading boundary conditions of a topology optimization problem. Corresponding topologically optimized structure and the Von-Mises stress contours on optimal design
+**Fig :** Material design domain and applied displacement and loading boundary conditions of a topology optimization problem. Corresponding topologically optimized structure and the Von-Mises stress contours on optimal design
 
 Sample Problem : 
 
 ![Dimentions of sample ](results/sample_problem.png)
-Problem definition at the reference configuration for database construction
+
+**Fig :** Problem definition at the reference configuration for database construction
 
 To generate the optimal topology structure given the parameters of prescribed volume fraction and location of the applied load, we propose a Convolutional Neural Network + Conditional Generative Adversarial Network-based method.
 
 # Sample Results
 
 ![](results/blackandwhite.png)
-Visualization: Optimal Structure (1, 2 blocks: real (top), generated (bottom))
+**Fig :** Visualization: Optimal Structure (1, 2 blocks: real (top), generated (bottom))
 
 ![](results/topopt.png)
-Visualization: Stress Maps (1, 2 blocks: real (top), generated (bottom))
+**Fig :** Visualization: Stress Maps (1, 2 blocks: real (top), generated (bottom))
 
 ![](results/maxstress.png)
-Visualization: Maximum Stress Points (1, 2 blocks: real (top), generated (bottom))
+**Fig :** Visualization: Maximum Stress Points (1, 2 blocks: real (top), generated (bottom))
 
-.center[
-![](results/maxstress.png)
-.caption[
-**Fig. 1:** Visualization: Maximum Stress Points (1, 2 blocks: real (top), generated (bottom))
-]]
 
 
 # Citation
