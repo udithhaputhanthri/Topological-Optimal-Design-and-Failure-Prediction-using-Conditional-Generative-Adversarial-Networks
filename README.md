@@ -27,9 +27,8 @@ Sample Problem :
 
 To generate the optimal topology structure given the parameters of prescribed volume fraction and location of the applied load, we propose a Convolutional Neural Network + Conditional Generative Adversarial Network-based method.
 
-# Sample Results
-
-<!---![](results/blackandwhite.png)
+<!---# Sample Results
+![](results/blackandwhite.png)
 **Fig :** Visualization: Optimal Structure (1, 2 blocks: real (top), generated (bottom))
 ![](results/topopt.png)
 **Fig :** Visualization: Stress Maps (1, 2 blocks: real (top), generated (bottom))
