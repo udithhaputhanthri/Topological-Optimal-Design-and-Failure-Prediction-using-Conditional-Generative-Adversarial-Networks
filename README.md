@@ -29,16 +29,12 @@ To generate the optimal topology structure given the parameters of prescribed vo
 
 # Sample Results
 
-![](results/blackandwhite.png)
+<!---![](results/blackandwhite.png)
 **Fig :** Visualization: Optimal Structure (1, 2 blocks: real (top), generated (bottom))
-
 ![](results/topopt.png)
 **Fig :** Visualization: Stress Maps (1, 2 blocks: real (top), generated (bottom))
-
 ![](results/maxstress.png)
-**Fig :** Visualization: Maximum Stress Points (1, 2 blocks: real (top), generated (bottom))
-
-
+**Fig :** Visualization: Maximum Stress Points (1, 2 blocks: real (top), generated (bottom))--->
 
 # Citation
 
