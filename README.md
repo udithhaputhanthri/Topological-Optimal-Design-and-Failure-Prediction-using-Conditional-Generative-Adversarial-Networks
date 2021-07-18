@@ -12,7 +12,17 @@ This notebook can be used to obtain "Optimal Topology Stress Maps" given the par
 
 # Abstract
 
-Topology optimization is the tool of choice in obtaining the initial design of structural components. The resulting optimal design from topology optimization will be the input for subsequent structural optimizations with regard to shape, size, and layout. In reality, however, iterative solvers used in conventional SIMP (Simplified Isotropic Material with Penalization) based topology optimization schemes consume a very high computational power and therefore act as a bottleneck in the manufacturing process. In this work, an accelerated topology optimization technique based on deep learning is presented. Conditional Generative Adversarial Network (cGAN) architecture is used to predict the optimal topology of a given structure subject to a set of input parameters. Next, stress contours are mapped onto the optimal structure to give accurate stress distribution over the structural domain. The predicted maximum Von-mises stress can directly be compared to the yield strength of the material for failure analysis. This technique is proven to arrive at the optimal design of a structure within a negligible amount of time. Also, this method is capable of predicting the stresses in the optimal design and hence plays a decisive role in the integrity of the optimal structure.
+Among the various structural optimization tools, topology optimization is the widely used technique in obtaining the initial design
+of structural components. The resulting topologically optimal initial design will be the input for subsequent structural optimizations
+such as shape, size and layout optimizations. However, iterative solvers used in conventional topology optimization schemes are
+known to be computationally expensive, thus act as a bottleneck in the manufacturing process. In this paper, a novel deep learning
+based accelerated topology optimization technique with the ability to predict ductile material failure is presented. A Conditional
+Generative Adversarial Network (cGAN) coupled with a Convolutional Neural Network (CNN) is used to predict the optimal
+topology of a given structure subject to a set of input variables. Subsequently, the same cGAN is trained to predict the Von-Mises
+stress contours on the optimal structure by means of color transformed image-to-image translations. The ductile failure criterion
+is evaluated by comparing the cGAN predicted maximum Von-Mises stress with the yield strength of the material. The proposed
+numerical method is proven to arrive at the topologically optimal design, accompanying the material failure decision within a
+negligible amount of time but also maintaining a higher prediction accuracy.
 
 # Problem Definition
 
