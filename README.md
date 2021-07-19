@@ -51,7 +51,7 @@ Citation for the repository:
 
 ```
 @software{udith_haputhanthri_2020_4020890,
-  author       = {Udith Haputhanthri},
+  author       = {Sumudu Herath, Udith Haputhanthri},
   title        = {{udithhaputhanthri/Topological-Optimal-Design-and- 
                    Failure-Prediction-using-Conditional-Generative-
                    Adversarial-Networks: First release}},
